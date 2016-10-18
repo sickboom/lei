@@ -1,0 +1,62 @@
+
+
+/*about--------------------------------*/
+.about .inner h2{font-size:40px;line-height: 164px;height:164px;color:deepskyblue;letter-spacing: 20px;text-align: center}
+.about .inner .left{width:50%;float: left;}
+.about .inner p{line-height:1.8em;color:#ccc;}
+.about .inner p i{color:#ffcc33}
+.about .inner p span{color:#FF6600;}
+.about .inner .right{float: right;}
+
+/*team----------------------------------*/
+.team{background: #eeeeee;}
+.team .inner h2{font-size:40px;line-height: 164px;height:164px;color:deepskyblue;letter-spacing: 20px;text-align: center}
+.team .inner .team_pic{float:left;margin-left:25px;width:270px;height:270px;position:relative}
+.team .inner .team_pic .box{width:170px;height:170px;border:50px solid #2a6496;position: absolute;top:0;left:0;opacity: 0.5}
+
+
+/*testimonials--------------------------------------*/
+.testimonials{margin:20px 0;}
+.testimonials .inner h2{font-size:40px;line-height: 164px;height:164px;color:deepskyblue;letter-spacing: 20px;text-align: center}
+.testimonials .inner .tes_pic{float: left;width:172px;height:172px;margin:0 30px;}
+.testimonials .inner .tes_text{color:#003300;height:145px;}
+.testimonials .inner .tes_text p{font-size:15px;color:#003300;line-height:30px;}
+/*contact----------------------*/
+.contact{background:#eee;margin:20px 0;}
+.contact .inner h2{font-size:40px;line-height: 164px;height:164px;color:deepskyblue;letter-spacing: 20px;text-align: center}
+.contact .inner .left{float: left;width:555px;height:170px;margin-right:50px;}
+.contact .inner .left h3{font-size:35px;color:#000;line-height:70px;font-weight: bold;}
+.contact .inner .right{float: right;}
+.contact .inner .right .text1{width:238px;height:40px;background: #E6E9EC;border-radius: 4px;}
+
+.contact .inner .right .text3{width:476px;height:174px;background: #E6E9EC;border-radius: 4px;}
+.contact .inner .right .sub{width:100px;height:38px;background:#6666ff;border-radius:10px;margin-top:10px;}
+.contact .inner .right .sub:hover{background:#f60}
+
+@media screen and (max-width:1000px){
+    .inner{width:100%;overflow: hidden}
+    .about .inner .left{float: none;margin:0 18%;}
+    .about .inner .right{float: none;margin:0 18% ;}
+    .about .inner .right img{width:600px;}
+    .team .inner .team_pic{width:30%;margin-left:90px}
+    .testimonials .inner .tes{width:60%;margin:0 8% 12%;}
+    .testimonials .inner .tes_text p{margin-left:33%}
+    .contact .inner .left{float: none;margin:0 18% 3%;}
+    .contact .inner .right{float: none;margin:0 18%;}
+    .contact .inner .right input{padding:0 100px;}
+}
+@media screen and (max-width:800px){
+    .inner{width:100%;overflow: hidden}
+    .about .inner h2{margin-right:40%}
+    .about .inner .left{margin:0 3%}
+    .about .inner .right{margin:0 3%}
+    .team .inner h2{margin-right:40%}
+    .team .inner .team_pic{float: none;margin-left:20%}
+    .testimonials{display: none}
+    .contact .inner h2{margin-right:40%}
+    .contact .inner .left{display: none}
+    .contact .inner .right input{padding:0 }
+    .contact .inner .right{margin:0 10%}
+
+
+}

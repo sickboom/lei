@@ -1,0 +1,48 @@
+*{margin:0;padding:0}
+ul{list-style: none}
+a{text-decoration: none}
+img{border:none}
+html,body{width:100%;height:100%;font-family: "Microsoft YaHei"}
+.clear{clear:both;}
+/*header----------------------------*/
+.header{background:url("../images/banner-two.jpg") no-repeat center top;height:30%;background-size: cover;}
+.inner{width:1200px;margin:0 auto}
+.header .inner .model{z-index: 999;
+    position: absolute;
+    width: 93%;
+    text-align: center;
+    top: 10%;
+    left: 3%;
+    padding: 23px 0px;
+    background: rgba(19, 46, 99, 0.65);
+    display: none;
+}
+.header .inner .model li a{margin:0 50px;}
+.header .inner  i{font-size: 30px;color: #fff;display: none}
+.header .inner li a{display-block:inline;float:left;font-size:20px;color:deepskyblue;
+    font-weight: bold;margin:0 90px;height:100px;line-height: 100px;
+}
+
+/*footer-------------------------------------------*/
+
+.footer{background:#DC950F;text-align: center;margin-top:20px}
+.footer .inner p{font-size:40px;line-height: 40px;height:40px;color:#fff;}
+
+
+@media screen and (max-width:1200px){
+    .inner{width:100%;overflow: hidden}
+    .header .inner ul i{display: block;margin-left: 10%}
+    .header .inner .daohang li{display: none}
+
+}
+@media screen and (max-width:1000px){
+    .inner{width:80%;overflow: hidden}
+    .footer{margin:0 -20%}
+}
+@media screen and (max-width:800px){
+    .inner{width:100%;overflow: hidden}
+    .footer{margin:0 -30%}
+}
+
+
+

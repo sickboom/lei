@@ -1,0 +1,42 @@
+
+/*projects---------------------------------*/
+.projects{margin-top:20px;background:#ffcc33}
+.projects .inner .projects_pic {float: left;}
+.projects .inner .aa{margin:0 4px;}
+/*testimonials--------------------------------------*/
+.testimonials{padding-botton:70px;}
+.testimonials .inner h2{font-size:40px;line-height: 164px;height:164px;color:deepskyblue;letter-spacing: 20px;text-align: center}
+.testimonials .inner .tes_pic{float: left;width:172px;height:172px;margin:0 30px;}
+.testimonials .inner .tes_text{color:#003300;height:145px;}
+.testimonials .inner .tes_text p{font-size:15px;color:#003300;line-height:30px;}
+/*contact----------------------*/
+.contact{background:#eee;margin:20px 0;}
+.contact .inner h2{font-size:40px;line-height: 164px;height:164px;color:deepskyblue;letter-spacing: 20px;text-align: center}
+.contact .inner .left{float: left;width:555px;height:170px;margin-right:50px;}
+.contact .inner .left h3{font-size:35px;color:#000;line-height:70px;font-weight: bold;}
+.contact .inner .right{float: right;}
+.contact .inner .right .text1{width:238px;height:40px;background: #E6E9EC;border-radius: 4px;}
+
+.contact .inner .right .text3{width:476px;height:174px;background: #E6E9EC;border-radius: 4px;}
+.contact .inner .right .sub{width:100px;height:38px;background:#6666ff;border-radius:10px;margin-top:10px;}
+.contact .inner .right .sub:hover{background:#f60}
+
+@media screen and (max-width:1200px){
+    .projects{text-align: center;}
+    .projects .inner .projects_pic{width:30%;}
+    .projects .inner .projects_pic img{width:60%}
+    .testimonials .inner .tes{width:60%;margin:0 20% 10%;}
+    .testimonials .inner .tes_text p{margin-left:5%}
+    .contact{text-align: center}
+    .contact .inner .left{display: none}
+    .contact .inner .right{float: none;}
+    .contact .inner .right input{padding:0 100px;}
+}
+@media screen and (max-width:1000px){
+    .projects .inner .projects_pic{float: none;width:70%;}
+}
+@media screen and (max-width:800px){
+    .testimonials{display: none}
+    .contact .inner h2{margin-right:40%}
+    .contact .inner .right{margin-right:40%}
+}

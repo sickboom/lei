@@ -1,0 +1,76 @@
+
+
+/*blogs--------------------------------*/
+
+.blogs .inner h2{font-size:40px;line-height: 164px;height:164px;color:deepskyblue;letter-spacing: 20px;text-align: center}
+.blogs .inner .box{width:46%;float: left;margin-left:4%}
+.blogs .inner .box h3 a{color:#024db3;font-size:30px;letter-spacing: 10px;line-height:72px;}
+.blogs .inner .box h3 a:hover{color:#F1E054}
+.blogs .inner .box .blogs_phone{background:#024db3;margin-top:-3px;margin-bottom:10px;}
+.blogs .inner .box ul li{float:left;line-height: 48px;margin:0 50px;}
+.blogs .inner .box ul li a{color:#ffcc33;}
+.blogs .inner .box p{line-height:26px;color:#6e6e6e;}
+.blogs .inner .box .btn a{
+    width:96px;heigth:36px;background:#ffcc33;
+    border-radius:4px;display:block;text-align: center;
+    line-height:36px;color:#fff;margin-top:20px;
+}
+
+.blogs .inner .page {width:470px;margin:0 auto;margin-top:20px;text-align: center;}
+.blogs .inner .page ul li{
+    float: left;width:40px;height:36px;border:1px solid #ffcc33;
+    border-radius: 2px;margin-right:4px;
+    line-height:36px
+}
+.blogs .inner .page ul .first{width:67px;}
+.blogs .inner .page ul .last{width:67px;}
+
+
+/*contact----------------------*/
+.contact{background:#eee;margin:20px 0;}
+.contact .inner h2{font-size:40px;line-height: 164px;height:164px;color:deepskyblue;letter-spacing: 20px;text-align: center}
+.contact .inner .left{float: left;width:555px;height:170px;margin-right:50px;}
+.contact .inner .left h3{font-size:35px;color:#000;line-height:70px;font-weight: bold;}
+.contact .inner .right{float: right;}
+.contact .inner .right .text1{width:238px;height:40px;background: #E6E9EC;border-radius: 4px;}
+
+.contact .inner .right .text3{width:476px;height:174px;background: #E6E9EC;border-radius: 4px;}
+.contact .inner .right .sub{width:100px;height:38px;background:#6666ff;border-radius:10px;margin-top:10px;}
+.contact .inner .right .sub:hover{background:#f60}
+
+@media screen and (max-width:1000px){
+    .blogs .inner h2{margin-right:30%}
+    .blogs .inner .box{float: none;margin:0 15%}
+    .blogs .inner .page{margin-right:40%}
+    .contact .inner .left{float: none;margin:0 18% 3%;}
+    .contact .inner .right{float: none;margin:0 18%;}
+    .contact .inner .right input{padding:0 100px;}
+}
+
+@media screen and (max-width:800px){
+    .blogs .inner .box{margin:0 10%}
+    .blogs .inner .page{margin-right:50%}
+    .contact .inner h2{margin-right:40%}
+    .contact .inner .left{display: none}
+    .contact .inner .right input{padding:0 }
+    .contact .inner .right{margin:0 10%}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
